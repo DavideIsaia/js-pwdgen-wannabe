@@ -1,8 +1,37 @@
 html {
     background-color: rgb(53, 75, 105);
+    font-family: Arial, Helvetica, sans-serif;
 }
- #my-pwd {
-     color: white;
-     font-size: 4rem;
-     text-align: center;
- }
+h1 {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 30vh;    
+}
+
+#my-pwd {
+    width: max-content;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(255, 193, 47);
+    padding: 1rem;
+    border-radius: 2.5rem;
+    transition: 1s;
+}
+
+#my-pwd:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+}
